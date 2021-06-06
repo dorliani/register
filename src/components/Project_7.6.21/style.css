@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+}
+
+hr {
+  border-top: 1px solid #007bff;
+}
+
+.errorInput {
+  background-color: rgb(255, 172, 172);
+}
+
+.blue {
+  color: #007bff;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+.list-group-flush > .list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.my_gradient {
+  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+}
+
+.my_shadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.list-group-item:hover:not(:first-child) {
+  background: rgba(255, 255, 255, 0.4);
+}
+.list-group-item:first-child {
+  cursor:not-allowed;
+}
+
+.shadow_card {
+  text-align: center;
+  width: 500px;
+  background-color: rgba(202, 191, 197, 0.123);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.55);
+  color: #fff;
+}
